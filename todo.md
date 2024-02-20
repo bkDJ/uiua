@@ -3,11 +3,12 @@
 - 0.9
   - Release it!
 - Optimize `≡/F`
+- 0.10
+  - Procedural macros
+  - `under` same-rank `join`
 - Site pages/tutorials
   - Duality of `pick` and `select`
   - Stack-source locality
-- 0.10
-  - Procedural macros
 - Changle how function inlining works
   - Prevent inlining of large functions
   - If a function is inlinable, don't actually put it in the assembly instructions
