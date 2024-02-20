@@ -57,6 +57,7 @@ pub enum Instr {
         count: usize,
         sig: Signature,
         span: usize,
+        under_cond: bool,
     },
     /// Do a format string
     Format {

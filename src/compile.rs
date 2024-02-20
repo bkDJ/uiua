@@ -1703,6 +1703,7 @@ code:
             count,
             sig,
             span: span_idx,
+            under_cond: false,
         });
         if !call {
             let instrs = self.new_functions.pop().unwrap();
