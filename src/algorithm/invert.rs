@@ -242,14 +242,6 @@ pub(crate) fn under_instrs(
         &dyad!(Mul, Div),
         &dyad!(Div, Mul),
         // Exponentail math
-        &bin!(Flip, Add, Sub),
-        &bin!(Flip, Mul, Div),
-        &bin!(Flip, Sub),
-        &bin!(Flip, Div),
-        &bin!(Add, Sub),
-        &bin!(Sub, Add),
-        &bin!(Mul, Div),
-        &bin!(Div, Mul),
         &maybe_val!(pat!(
             (Flip, Pow),
             (CopyToTempN(1), Flip, Pow),
